@@ -67,8 +67,11 @@ td:hover {
   width: 50%;
   color: rgb(0,0,0,0.3);
   border-radius: 50%;
-  -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  transition: 1s transform ease;
+}
+
+.image-brain:hover {
+  transform: rotate(180deg);
 }
 
 footer {
