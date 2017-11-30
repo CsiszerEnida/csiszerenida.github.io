@@ -5,9 +5,12 @@ $(document).ready(function(){
 		if(color=="black") {
 			$("body").css("background-color", "white")
 			color="white"
+			$("#get-bright").text("Dark")
+		
 		} else {
 			$("body").css("background-color", "black")
 			color="black"
+			$("#get-bright").text("Get Bright")
 		}
 	})
 })
