@@ -9,6 +9,7 @@ body {
 
 .text-light {
   color: rgb(0,255,255);
+  font-family: Times New Roman;
 }
 
 
@@ -33,6 +34,29 @@ h2 {
 
 .image-profile {
   width: 50%;
+}
+
+table
+{
+border-collapse: collapse;
+border-spacing: 0px;
+margin: auto;
+}
+table, th, td
+{
+padding: 10px;
+border: 1px solid #aaa;
+}
+
+th {
+  text-align: center;
+}
+th:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+td:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .image-article {
