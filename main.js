@@ -3,8 +3,8 @@ var color="black"
 $(document).ready(function(){
 	$("#get-bright").click(function(){
 		if(color=="black") {
-			$("body").css("background-color", "white")
-			color="white"
+			$("body").css("background-color", "navajowhite")
+			color="navajowhite"
 			$("#get-bright").text("Dark")
 		
 		} else {
