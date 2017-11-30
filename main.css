@@ -73,7 +73,7 @@ td:hover {
 }
 
 .image-brain:hover {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 footer {
