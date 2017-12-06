@@ -99,4 +99,8 @@ button {
 button:hover {
   background: pink;
 }
-
+header {
+  /* background properties */
+      background: url(https://media.boingboing.net/wp-content/uploads/2015/10/neurons21.gif) repeat 99% center,
+               linear-gradient(to bottom, yellow, #aaa 50%, orange);
+  }
