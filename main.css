@@ -10,12 +10,17 @@ body {
 }
 
 .text-light {
-  color: rgb(140,60,255);
+  color: rgb(150,50,255);
   font-family: Times New Roman;
 }
 
 h1{
   font-size: 120px;
+  text-align: center;
+  font-family: Times New Roman;
+  color: black;
+  margin:0;
+  padding: 0;
 }
 
 .has-links-centered {
