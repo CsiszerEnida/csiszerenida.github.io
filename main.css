@@ -5,15 +5,18 @@ body {
 .navbar {
   border-radius: 0;
   background-color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 .text-light {
-  color: rgb(148,60,255);
+  color: rgb(140,60,255);
   font-family: Times New Roman;
 }
 
 h1{
-  font-size: 120px;}
+  font-size: 120px;
+}
 
 .has-links-centered {
   width: 100%;
