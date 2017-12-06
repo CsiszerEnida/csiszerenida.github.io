@@ -12,6 +12,7 @@ body {
 .text-light {
   color: rgb(150,50,255);
   font-family: Times New Roman;
+  font-weight: bold;
 }
 
 h1{
@@ -28,8 +29,11 @@ h1{
   display: flex;
   justify-content: space-around;
 }
-
-authors {
+.image-meme {
+  width: 55%;
+  border-color: black;
+}
+.authors {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -55,7 +59,7 @@ margin: auto;
 table, th, td
 {
 padding: 10px;
-border: 1px solid #aaa;
+border: 1px solid black;
 }
 
 th {
@@ -113,3 +117,4 @@ button:hover {
                 linear-gradient(to bottom, yellow, #aaa 50%, orange);
     background-size: cover;
   }
+
