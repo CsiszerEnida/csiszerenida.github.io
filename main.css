@@ -98,8 +98,10 @@ button {
 
 button:hover {
   background: pink;
-header {
-      background: url("giphy.gif") repeat 99% center,
-               linear-gradient(to bottom, yellow, #aaa 50%, orange);
-               background-size: cover;
+}
+
+  header {
+    background: url(giphy.gif) repeat 99%, center,
+                linear-gradient(to bottom, yellow, #aaa 50%, orange);
+    background-size: cover;
   }
