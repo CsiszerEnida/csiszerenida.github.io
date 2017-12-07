@@ -117,4 +117,6 @@ button:hover {
                 linear-gradient(to bottom, yellow, #aaa 50%, orange);
     background-size: cover;
   }
-
+.bright {
+  width: 5%;
+}
